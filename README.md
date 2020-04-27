@@ -10,6 +10,7 @@ You need to have the firebase realtime database setup and the google sheet that 
 <ol>
   <li>Inside the sheet, go to <code>Tools -> Script editor</code></li>
   <li>Replace the content of <code>Code.gs</code> and <code>appsscript.json</code> files with the ones here.</li>
+  <li>Insert your spreadsheetID and firebaseUrl inside the <code>getEnvironment()</code> function in the <code>Code.gs</code> file</li>
   <li>Adjust the <code>formJSON()</code> function inside <code>Code.gs</code> to create the object that you would like to sync.</li>
   <li>Go to <code>Run -> Run function -> initialize</code></li>
 </ol>
